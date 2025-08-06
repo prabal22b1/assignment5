@@ -1,0 +1,34 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    object-fit: cover;
+}
+
+body {
+    background-image: url(grabient-HQRgnADANKAsIxAVgMwxQNmsATBtoAHGDBgOwLBIgHXQjAZgkNk5oNMhA-1754457646364.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
